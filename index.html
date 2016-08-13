@@ -236,7 +236,36 @@ layout: master
 </div>
 
 <script type="text/javascript">
-  weatherForecastInit();
+  function changeDayForecast()
+  {
+    var elmVisible = 0;
+    $(".top-weather").each(function(){
+      if ($(this).is(':visible'))
+        elmVisible = $(this).data("position");
+    });
+
+    elmVisible++;
+    if (elmVisible == 0 || elmVisible == 4)
+      elmVisible = 1;
+
+    $(".top-weather").hide();
+
+    $(".top-weather").each(function(){
+      if ($(this).data("position") == elmVisible)
+        $(this).show();
+    });
+  }
+
+  function weatherForecastInit()
+  {
+    $(".top-weather").hide();
+    changeDayForecast();
+    setInterval(changeDayForecast, 5000);
+  }
+
+  $(document).ready(function(){
+    weatherForecastInit();
+  })
 </script>
 
   

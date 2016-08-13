@@ -1,0 +1,212 @@
+/* Home */
+
+.content-home {
+  font-size: 11px;  
+}
+
+.content-home-boxed {
+  border-radius: 3px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+  margin-top: 5px;
+  padding: 40px 20px 20px 20px;
+}
+
+.content-home-bottom {
+  background-color: #f9f9f9;
+  border-top: 1px solid #ccc;
+}
+
+.home-top {
+  margin-bottom: 40px;
+}
+
+.home-top img {
+  max-height: 180px;
+}
+
+.box-home {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.subtitle {
+  display: block;
+  font-size: 12px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.box-home img, .miniatura-francisco img, .miniatura-silvestre img {
+  margin: 0 auto;
+}
+
+.container-img-irmas, .container-img-navio {
+  margin: 0 20px;
+}
+
+.container-img-irmas img, .container-img-navio img {
+  display: block;
+  margin: 0 auto;
+}
+
+.container-book-home img {
+  display: block;
+  margin: 0 auto;
+}
+
+.container-senhor-filhas img {
+  margin: 0 auto;
+}
+
+.container-boxes-home {
+  padding-top: 30px;
+}
+
+.container-frase {
+  border-bottom: 2px solid #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.container-frase span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.internal-page p{
+  font-size: 14px;
+  text-align: justify;
+}
+
+.internal-page p.indented {
+  text-indent: 50px;
+}
+
+.internal-page h2 {
+  text-align: center;
+}
+
+
+/* Galeria */
+
+.bx-wrapper .bx-viewport{
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.gallery-container {
+  margin-top: 40px;
+}
+
+.gallery-container img {
+  margin: 0 auto;
+}
+
+#gallery-pager a {
+  display: inline-block;
+}
+
+#gallery-pager img {
+  max-width: 100px;
+}
+
+.bx-pager-link img {
+  max-width: 100px;
+}
+
+.bx-wrapper .bx-pager {
+  position:  static;
+}
+
+.gallery-pager-container .bx-next {
+  right: -22px;
+}
+
+.gallery-pager-container .bx-prev {
+  left: -38px;
+}
+
+
+.gallery-pager-container .bx-next, .gallery-pager-container .bx-prev {
+  margin-top: -30px !important;
+}
+
+.bx-wrapper .bx-pager {
+  bottom: -95px;
+}
+
+.bx-wrapper .bx-pager a {
+border: solid #ccc 1px;
+  display: block;
+  margin: 0 5px;
+  padding: 3px;
+}
+
+.bx-wrapper .bx-pager a:hover,
+.bx-wrapper .bx-pager a.active {
+  border: solid #5280DD 1px;
+}
+
+.bx-wrapper {
+  padding-bottom: 40px;
+}
+
+.gallery-container img {
+  max-height: 300px;
+}
+
+.title-page {
+  padding-bottom: 20px;
+}
+
+/* +++++++++++++++++ Previsao do Tempo +++++++++++++++++++++++++ */
+
+.container-weather {
+  margin: 20px 0;
+}
+
+.container-city-name {
+  text-align: center;
+}
+
+.top-weather-container-top {
+  line-height: 50px;
+  padding: 15px 0;
+}
+
+.top-weather-date {
+  padding-right: 15px;
+}
+
+.top-weather-image {
+  padding-right: 5px;
+}
+
+.top-weather-description {
+  line-height: 20px;
+}
+
+.vcenter {
+  vertical-align: middle;
+}
+
+.container-min-max span{
+  display: block;
+  line-height: 22px;
+  padding-right: 15px;
+}
+
+.down-weather-day {
+  text-align: center;
+}
+
+.down-weather-image img {
+  margin: 0 auto;
+}
