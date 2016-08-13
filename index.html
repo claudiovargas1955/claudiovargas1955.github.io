@@ -1,23 +1,242 @@
 ---
-layout: default
+layout: master
 ---
 
-<div class="home">
+<div class="content-home internal-page">
+  <div class="container">
+    <div class="content-home-boxed">
+      <div class="row home-top">
+        <div class="col-xs-4">
+          <div class="img-container-border">
+            <a href="/historia-de-silvestre">
+              <img src="images/irmas.png" class="img-responsive" alt="irmas">
+            </a>          
+          </div>
+          <span class="subtitle">Na foto as três filhas de Silvestre: Emilia (Pt), Joaquina (Br) e Ana (Pt), no ano de 1944 em Cachoeira do Sul, RS</span>
+        </div>
+        <div class="col-xs-4">
+          <div class="img-container-border">
+            <a href="http://museudaimigracao.org.br/acervodigital/upload/listas/BR_APESP_MI_LP_012825.pdf">
+              <img src="images/navio.png" class="img-responsive" alt="navios">
+            </a>            
+          </div>
+          <span class="subtitle">Em dezembro de 1922 Maria e as duas filhas embarcaram em leixÃµes no vapor Amiral JaurÃ©-guiberry com destino ao RS, Brasil.</span>
+        </div>
+         <div class="col-xs-4">
+            <div class="img-container-border">
+              <a href="/genealogia-vargas">
+                <img src="images/1445911200vargas_home.png" alt="home">
+              </a>
+            </div>
+            <span class="subtitle">Os irmãos Cândido da Silveira Vargas *1855 e João Antônio de Vargas *1857, bisnetos de Antonio da Silveira Vargas (registro batismo abaixo).</span>
+        </div>
+      </div>
 
-  <h1 class="page-heading">Posts</h1>
+      <div class="row">
+        <div class="container-book-home col-sm-8">
+          <div class="img-container-border">
+            <a href="http://culturacores.azores.gov.pt/biblioteca_digital/FAL-HT-CASTELOBRANCO-B-1736-1777/FAL-HT-CASTELOBRANCO-B-1736-1777_item1/P56.html">
+              <img src="images/livro.jpg" alt="livro">
+            </a>
+          </div>
+          <span class="subtitle">Registro de batismo de Antonio da Silveira Vargas, 
+          nascido na freguesia de Santa Luzia de Castelo Branco, Ilha do Faial, Açores. 
+          Chegou no ano de 1766 na Enseada do Brito, SC, onde casou com Josefa Maria de Jesus.</span>
+          <span class="fonte">Fonte: CCA/DRaC</span>
+        </div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+        <div class="col-sm-4">
+          <div class="row">
+            <div class="miniatura-silvestre col-xs-6">
+              <img src="images/silvestreMiniatura.png" alt="silvestre">
+              <span class="subtitle centered-text">Silvestre</span>
+            </div>
+            <div class="miniatura-francisco col-xs-6">
+              <img src="images/franciscoMiniatura.png" alt="Francisco">
+              <span class="subtitle centered-text">Francisco</span>
+            </div>
+          </div>
+          
+          <div class="previsao-tempo">
+            <div class="container-weather">
+              <div class="top-weather" data-position="0">
+                  <div class="container-city-name">
+                    <span>Tempo Cachoeira do Sul</span>
+                  </div>
+                  <div class="top-weather-container-top clearfix">
+                    <div class="vcenter top-weather-date width-33">
+                      <span>13/08/2016</span>
+                    </div>
+                    <div class="width-33">
+                      <div class="vcenter top-weather-image pull-left">
+                          <img src="/images/weather/04d.png">
+                      </div>
+                      <div class="container-min-max vcenter pull-left">
+                        <span>24°</span>
+                        <span>11°</span>
+                      </div>
+                    </div>
+                    <div class="top-weather-description width-33 vcenter">
+                      <span>clear sky</span>
+                    </div>
+                  </div>
+              </div>
+              <div class="top-weather" data-position="1">
+                  <div class="container-city-name">
+                    <span>Tempo Cachoeira do Sul</span>
+                  </div>
+                  <div class="top-weather-container-top clearfix">
+                    <div class="vcenter top-weather-date width-33">
+                      <span>14/08/2016</span>
+                    </div>
+                    <div class="width-33">
+                      <div class="vcenter top-weather-image pull-left">
+                          <img src="/images/weather/04d.png">
+                      </div>
+                      <div class="container-min-max vcenter pull-left">
+                        <span>24°</span>
+                        <span>10°</span>
+                      </div>
+                    </div>
+                    <div class="top-weather-description width-33 vcenter">
+                      <span>clear sky</span>
+                    </div>
+                  </div>
+              </div>
+              <div class="top-weather" data-position="2">
+                  <div class="container-city-name">
+                    <span>Tempo Cachoeira do Sul</span>
+                  </div>
+                  <div class="top-weather-container-top clearfix">
+                    <div class="vcenter top-weather-date width-33">
+                      <span>15/08/2016</span>
+                    </div>
+                    <div class="width-33">
+                      <div class="vcenter top-weather-image pull-left">
+                          <img src="/images/weather/10d.png">
+                      </div>
+                      <div class="container-min-max vcenter pull-left">
+                        <span>24°</span>
+                        <span>10°</span>
+                      </div>
+                    </div>
+                    <div class="top-weather-description width-33 vcenter">
+                      <span>Chuva moderada</span>
+                    </div>
+                  </div>
+              </div>
+              <div class="top-weather" data-position="3">
+                  <div class="container-city-name">
+                    <span>Tempo Cachoeira do Sul</span>
+                  </div>
+                  <div class="top-weather-container-top clearfix">
+                    <div class="vcenter top-weather-date width-33">
+                      <span>16/08/2016</span>
+                    </div>
+                    <div class="width-33">
+                      <div class="vcenter top-weather-image pull-left">
+                          <img src="/images/weather/10d.png">
+                      </div>
+                      <div class="container-min-max vcenter pull-left">
+                        <span>21°</span>
+                        <span>12°</span>
+                      </div>
+                    </div>
+                    <div class="top-weather-description width-33 vcenter">
+                      <span>Chuva leve</span>
+                    </div>
+                  </div>
+              </div>
+              <div class="top-weather" data-position="4">
+                  <div class="container-city-name">
+                    <span>Tempo Cachoeira do Sul</span>
+                  </div>
+                  <div class="top-weather-container-top clearfix">
+                    <div class="vcenter top-weather-date width-33">
+                      <span>17/08/2016</span>
+                    </div>
+                    <div class="width-33">
+                      <div class="vcenter top-weather-image pull-left">
+                          <img src="/images/weather/10d.png">
+                      </div>
+                      <div class="container-min-max vcenter pull-left">
+                        <span>22°</span>
+                        <span>7°</span>
+                      </div>
+                    </div>
+                    <div class="top-weather-description width-33 vcenter">
+                      <span>Chuva moderada</span>
+                    </div>
+                  </div>
+              </div>
+            <div class="down-weather clearfix">
+              <div class="left-weather pull-left">
+                <div class="clearfix">
+                  <span class="full-width">Tempo Campeã</span>
+                  <div class="down-weather-day"><span>Sábado</span></div>
+                  <div class="down-weather-image">
+                    <img src="/images/weather/04d.png">
+                  </div>
+                  <div class="clearfix center">
+                    <span class="temperatura-bottom">25°</span>
+                    <span class="temperatura-bottom">13°</span>
+                  </div>
+                </div>
+              </div>
+              <div class="right-weather pull-right">
+                <div class="clearfix">
+                  <span class="full-width">Tempo Horta</span>
+                  <div class="down-weather-day"><span>Sábado</span></div>
+                  <div class="down-weather-image">
+                    <img src="/images/weather/04d.png">
+                  </div>
+                  <div class="clearfix center">
+                    <span class="temperatura-bottom">23°</span>
+                    <span class="temperatura-bottom">23°</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="content-home-bottom" >
+    <div class="container">
+      <div class="container-boxes-home row">
+        <div class="col-xs-4">
+          <h4>OBJETIVO DO SITE</h4>
+          <p>Resgatar e preservar as histórias de vida de Silvestre Rodrigues
+          e de Francisco da Silva Vargas, e deixar para as gerações futuras o
+          pleno conhecimento de suas raízes genealÃ³gicas, bem como prestar uma
+          homenagem toda especial a tia, mãe e avó Joaquina Martins Rodrigues.</p>
+        </div>
+        <div class="col-xs-4">
+          <h4>CONTEÚDO</h4>
+          <p>Disponibilizamos para pesquisas mais de dois mil registros entre batismos,
+          casamentos e Ã³bitos, e as genealogias dos Rodrigues (Roiz), Martins (Miz), Vargas, 
+          Oliveira, Fonseca, Souza, Borba, Teixeira do Canto, Bredow, Dressler e Dillenburg,
+          bem como dezenas de fotos dessas famílias.</p>
+        </div>
+        <div class="col-xs-4">
+          <h4>MENSAGEM</h4>
+          <p>O conteÃºdo deste site esta aberto para todos que desejarem incluir informaÃ§Ãµes, 
+          documentos e fotos, que venham enriquecer o presente acervo, bastando para isso
+          deixarem uma mensagem na pÃ¡gina contato. <br>
+          Agradecemos a colaboraÃ§Ã£o</p>
+        </div>
+      </div>
+      <div class="container-footer-quote">
+        <span>"Tudo tem o seu tempo determinado, e hÃ¡ tempo para todo propÃ³sito em baixo desse cÃ©u"</span>
+      </div>
+    </div>
+  </div>
 </div>
+
+<script type="text/javascript">
+  weatherForecastInit();
+</script>
+
+  
