@@ -2,7 +2,38 @@
 layout: page
 title:  "FAMÍLIA ANTUNES DE MELLO"
 ---
-
+<style>
+<style>
+details summary::-webkit-details-marker {display: none;
+                                        }
+details{margin-top:10px;
+           }
+summary{height: 40px;border-radius: 10px;
+                padding: 15px 0px 0px 10px;
+                font: 10pt Arial;
+               color:#fff;
+               font-weight:bold;
+               background: linear-gradient(to bottom, #fff, #996633);
+        }
+summary:before{margin-right:5px;
+                           content:"+";
+                 }
+details[open] summary:before {content: "-";
+                                                 }
+details[open] { background: #DCDCDC;                        
+              }
+details[open] summary {color:#996633;                                         
+                       background:linear-gradient(to bottom, #fff, #D3D3D3); 
+                      }
+ .esq{border:#996633 solid 2px;      
+      margin-right:10px;
+      margin-left: 5px;
+      }       
+.dir{border:#996633 solid 2px;      
+    margin-left:10px;
+    margin-right: 5px;
+    }
+</style>
 <h2>A GENEALOGIA DA FAMÍLIA ANTUNES DE MELLO</h2>
 <br/><br/>        
 <p>
