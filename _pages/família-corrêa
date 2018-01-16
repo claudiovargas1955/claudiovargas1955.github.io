@@ -1,0 +1,102 @@
+---
+layout: page
+title:  "FAMÍLIA ANTUNES DE MELLO"
+---
+
+<style>
+      details summary::-webkit-details-marker {display:;
+                                              }
+      details{margin-top:10px;
+             }
+      summary{height: 40px;border-radius: 10px;
+              padding: 15px 0px 0px 10px;
+              font: 10pt Arial;
+              color:#fff;
+              font-weight:bold;
+              background: linear-gradient(to bottom, #fff, #996633);
+              }
+       summary:before{margin-right:5px;
+                           content:"+";
+                     }
+       details[open] summary:before {content: "-";
+                                    }
+       details[open] { background: #DCDCDC;                        
+                     }
+       details[open] summary {color:#996633;                                         
+                              background:linear-gradient(to bottom, #fff, #D3D3D3); 
+                             }
+       .esq{border:#996633 solid 2px;      
+            margin-right:10px;
+            margin-left: 5px;
+           }       
+       .dir{border:#996633 solid 2px;
+           margin-left:10px;
+            margin-right: 5px;
+           }
+      .dir1{border:#996633 solid 2px;
+            border-radius: 100%;
+            margin-left:10px;
+            margin-right: 5px;
+           }      
+         h3{background: #996633;  
+            width:580px;
+            border-top: #996633 groove 8px;
+            border-bottom: #996633 double 5px;
+            text-align: center;
+            color: white;
+            margin-left:180px;
+            
+           }
+      
+         h1{text-align: center;
+            color: #996633;
+            text-shadow: 3px 3px 4px #888;
+            font-size: 36px;
+           }
+         
+         h2{
+            color: #996633;
+            text-shadow: 3px 3px 4px #888;
+           }
+      
+         h4{color: #996633;
+            text-shadow: 3px 3px 4px #888;
+           }
+        .esq1{margin-right:5px;
+              margin-left: 5px;
+              border:#996633 solid 2px;
+              border-radius: 10px;
+           }       
+      
+     
+</style>
+
+                             <h1>A FAMÍLIA CORRÊA</h1><br>
+
+
+<h2>ÁRVORE DE COSTADOS DE ODITY DE OLIVEIRA CORRÊA</h2>
+<img class="esq1" style="float:left"; src="/images/Ageu.png" height:"50px" align="center" title="Assinatura Ageu Antunes
+de Mello - 18.08.1965";/>
+
+<img class="dir" style="float:right"; src="/images/img004PA.png" height="260px"; title="Ageu, e os pais Osório e Anna";/> 
+<p><b><p style="text-indent:100px";/>Ageu Antunes de Mello,</b> nasceu em 02.08.1931 no municipio de  Passo do Sobrado, RS, casou com
+Olga Vargas Borba *17.11.1938, filha de Antonio José de Borba *26.11.1899 +17.10.1974 e de Marieta Vargas *23.06.1911 +08.01.1991.<br><br>
+
+<b>PAI: <br><br>
+
+<b>A1-Avós Paternos: <br><br>
+
+<b>A2-Avós Maternos: <br><br>
+
+<b>B1-BISAVÓS PATERNOS PELA PARTE AVÓS PATERNOS </b>
+
+<b>1.2-Maternos: <br><br>
+
+<b>B2-BISAVÓS MATERNOS PELA PARTE AVÓS MATERNOS </b>(Luiz Antunes e Maria Joaquina Pacheco): (A2)<br>
+<b>2.1-Paternos: <br><br>
+      
+<b>2.2-Maternos: <br><br></p>
+
+      
+<p style="text-align:center; color:#996633; font-size:30px; font-family: 'Rancho', cursive ">"Porque tive fome, e me destes de comer; 
+tive sede, e me destes de beber..."</p>
