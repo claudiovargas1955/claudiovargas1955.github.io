@@ -45,8 +45,7 @@ title:  "Familia Corrêa"
             text-align: center;
             color: white;
             margin-left:180px;
-            
-           }
+            }
       
          h1{text-align: center;
             color: #996633;
@@ -62,14 +61,13 @@ title:  "Familia Corrêa"
          h4{color: #996633;
             text-shadow: 3px 3px 4px #888;
            }
-        .esq1{margin-right:5px;
-              margin-left: 5px;
-              border:#996633 solid 2px;
-              border-radius: 10px;
+      .esq1{margin-right:5px;
+            margin-left: 5px;
+            border:#996633 solid 2px;
+            border-radius: 10px;
            }       
       
-     
-</style>
+    </style>
 
                              <h1>A FAMÍLIA CORRÊA</h1><br>
 
@@ -83,9 +81,8 @@ de Mello - 18.08.1965";/><br><br>
 
 <b>A1-Avós Paternos: </b><br><br>
 
-<b>A2-Avós Maternos:  </b><br><br>
-
-<br><br></p>
+<b>A2-Avós Maternos:  </b><br><br></p>
 
       
-<p style="text-align:center; color:#996633; font-size:30px; font-family: 'Rancho', cursive ">"Porque tive fome, e me destes de comer; tive sede, e me destes de beber..."</p>
+<p style="text-align:center; color:#996633; font-size:30px; font-family: 'Rancho', cursive ">"Porque tive fome, e me destes de comer; 
+tive sede, e me destes de beber..."</p>
