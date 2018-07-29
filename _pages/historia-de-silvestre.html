@@ -45,12 +45,7 @@ summary{height: 40px;
           .video{margin-left:150px;
                      }
   </style>
-      <script>
-           $('.video').on('ended',function(){
-           $('video')[0].autoplay=false;
-           $('video')[0].load();
-      });
-</script>
+      
 
 <video class="video" width="600px" height="350px" controls poster="images/postersilvestre.jpg">
    <source src="media/ANDY.mp4">
@@ -844,3 +839,10 @@ Descanse em paz!</p>
 <h3></h3>
 <br/>    
 <p style="text-align:center; color:#996633; font-size:32px; font-family: 'Rancho',cursive">"Combati o bom combate, acabei a carreira, guardei a fé."</p>
+
+<script>
+           $('.video').on('ended',function(){
+           $('video')[0].autoplay=false;
+           $('video')[0].load();
+      });
+</script>
