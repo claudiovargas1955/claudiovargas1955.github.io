@@ -45,6 +45,12 @@ summary{height: 40px;
           .video{margin-left:150px;
                      }
   </style>
+      <script>
+           $('.video').on('ended',function(){
+           $('video')[0].autoplay=false;
+           $('video')[0].load();
+      });
+</script>
 
 <video class="video" width="600px" height="350px" controls poster="images/postersilvestre.jpg">
    <source src="media/ANDY.mp4">
