@@ -28,6 +28,25 @@ details[open] {background: #DCDCDC;
 details[open] summary {color:#996633;                                          
                        background:linear-gradient(to bottom, #fff, #D3D3D3);
                        }
+       
+ figure.foto-legenda img {width: 80%;           
+                         height: 100%;           
+                         margin-left:90px;       
+                        }      
+figure.foto-legenda figcaption {opacity: 0;       
+                                position: absolute;       
+                                margin-left:90px;       
+                                top: 0px;       
+                                background-color: rgba(0,0,0, 0.3);       
+                                color: white;                                  
+                                width: 80%;       
+                                height: 93%;       
+                                padding-left: 10px;       
+                                box-sizing: border-box;       
+                                transition:opacity 1s;     
+                                }
+figure.foto-legenda:hover figcaption {opacity: 1;
+                                     }         
                        
    .esq{border:#996633 solid 2px;       
         margin-right:10px;
@@ -58,8 +77,8 @@ h2{margin-bottom:-20px;
 </style>
      
 <h2>ÁRVORE GENEALÓGICA DA FAMÍLIA SOUZA</h2>
-<img class="esq1" style="float:left"; src="/images/Donato S.jpg" width="640px" height="60px" title="Assinatura Donato Borba de Souza 
-- 28.01.1953";/> 
+<figure class="foto-legenda"><img style="Dittberner" src="/images/123 souza.jpg" height="400px";/><br/><br/><figcaption><h5>Homenagem a<br>Martinho Antonio 
+03.06.1945</h5></figcaption></figure>
 
 <p><a href="https://familysearch.org/ark:/61903/3:1:33S7-8BLF-99NZ?mode=g&i=137&cc=1985805" target="_blank"><img class="dir"
 style="float:right"; src="/images/1450587600Donato.jpg"; height="220px"; title="Donato Sousa - ano 1955"></a><br/>      
