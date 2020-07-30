@@ -27,6 +27,27 @@ details[open] {background: #DCDCDC;
 details[open] summary {color:#fff;                                          
                        background:linear-gradient(to bottom, #fff, #D3D3D3);                                         
                       }
+  
+figure.foto-legenda {position: relative;                                
+                    }      
+figure.foto-legenda img {width: 80%;           
+                         height: 100%;           
+                         margin-left:90px;       
+                        }      
+figure.foto-legenda figcaption {opacity: 0;       
+                                position: absolute;       
+                                margin-left:90px;       
+                                top: 0px;       
+                                background-color: rgba(0,0,0, 0.3);       
+                                color: white;                                  
+                                width: 80%;       
+                                height: 93%;       
+                                padding-left: 10px;       
+                                box-sizing: border-box;       
+                                transition:opacity 1s;     
+                                }
+figure.foto-legenda:hover figcaption {opacity: 1;
+                                     }     
 
 .esq{ border:#996633 solid 2px;       
           margin-right:10px;
@@ -50,7 +71,10 @@ details[open] summary {color:#fff;
     }
 </style>
 
-<h2>GENEALOGIA DA FAMÍLIA VIEGAS</h2>            
+<h2>GENEALOGIA DA FAMÍLIA VIEGAS</h2>
+
+<figure class="foto-legenda"><img style="Viegas" src="/images/famíliadittberner.jpg" height="400px";/><br/><br/><figcaption><h5>Homenagem a<br> Ademir Dittberner</h5>
+</figcaption></figure> 
 <img class="esq1" style="float:left"; src="/images/Nair.png" width="600px" height="50px" align="center" title="Assinatura Nair Nunes Viegas - 
 09.07.1941";/>
 
