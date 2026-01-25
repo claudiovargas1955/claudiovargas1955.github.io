@@ -154,10 +154,69 @@ figure.foto-legenda:hover figcaption {opacity: 1;
    .no-zoom:hover {
       transform: none !important;
    }
-  
+ .foto-grupo {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+}
+
+.foto-grupo img {
+  width: 500%;
+  display: block;
+}
+
+.pessoa {
+  position: absolute;
+  width: 60px;
+  height: 120px;
+  cursor: pointer;
+}
+
+.pessoa::after {
+  content: attr(data-nome);
+  position: absolute;
+  bottom: 100%;
+  left: 60%;
+  transform: translateX(-50%);
+  background: rgba(0,0,0,0.8);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 1s;
+}
+
+.pessoa:hover::after {
+  opacity: 1;
+  transform: scale(1.5);
+ transition: transform 0.5s ease;	 
+} 
 </style>
 
 <h1>GENEALOGIA DA FAMÍLIA KIRSCH DA SILVEIRA</h1>
+<div class="foto-grupo">
+  <img class="esq1 no-zoom img-responsive" style="Kirsch" src="/images/Kirsch1.jpg" width="900px";/>
+  <span class="pessoa" style="top: 11%; left: 21%;" data-nome="Arnaldo"></span>
+  <span class="pessoa" style="top: 7%; left: 51%;" data-nome="Fredolino"></span>
+  <span class="pessoa" style="top: 12%; left: 85%;" data-nome="Otto"></span>
+  <span class="pessoa" style="top: 12%; left: 85%;" data-nome="Avô Emilio"></span>
+  <span class="pessoa" style="top: 12%; left: 85%;" data-nome="Guilherme"></span>
+  <span class="pessoa" style="top: 12%; left: 85%;" data-nome="Augusto"></span>
+  <span class="pessoa" style="top: 12%; left: 85%;" data-nome="Antonio"></span>
+  <span class="pessoa" style="top: 12%; left: 85%;" data-nome="Antonio"></span>
+  <span class="pessoa" style="top: 12%; left: 85%;" data-nome="Antonio"></span>
+  <span class="pessoa" style="top: 12%; left: 85%;" data-nome="Antonio"></span>
+  <span class="pessoa" style="top: 12%; left: 85%;" data-nome="Antonio"></span>
+  <span class="pessoa" style="top: 12%; left: 85%;" data-nome="Antonio"></span>
+  <span class="pessoa" style="top: 12%; left: 85%;" data-nome="Antonio"></span>
+  
+</div>
+
+
+
 
 <figure class="foto-legenda"><img style="Otto Carlos Friederich Kirsch e Familia"; src="/images/Kirsch1.jpg" width="900px";/>
 <figcaption><h8>[Arnaldo Benardo] [Fredolino Ernesto] :-:: [Otto Paulo] :-::[Avô Emilio Carlos] [Guilherme Otto] 
