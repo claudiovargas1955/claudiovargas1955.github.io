@@ -71,6 +71,48 @@ img:hover {
   transform: none !important;
 }
 
+ } 
+  .foto-grupo {
+  position: relative;
+  width: 80%;
+  max-width: 700px;
+}
+
+.foto-grupo img {
+  width: 200%;
+  display: block;
+}
+
+.pessoa {
+  position: absolute;
+  width: 60px;
+  height: 120px;
+  cursor: pointer;
+}
+
+.pessoa::after {
+  content: attr(data-nome);
+  position: absolute;
+  bottom: 100%;
+  left: 80%;
+  transform: translateX(-50%);
+  background: rgba(0,0,0,0.8);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 1s;
+}
+
+.pessoa:hover::after {
+  opacity: 1;
+  transform: scale(1.0);
+ transition: transform 0.5s ease;	 
+}
+
 </style>
 
 <video class="video" width="600px" height="350px"controls poster="images/1456981200MOVIE.png">
@@ -402,8 +444,20 @@ esposa no hospital, mas, a sua estratégia deu certo e o mesmo fugiu deixando a 
 <b>-SAMDU (Serviço de assistência médica domiciliar e de urgencia):</b> <br>
 <b>-Ano 1961:</b> Florisbelo é nomeado como motorista e auxiliar de enfermagem. <br><br>
 <b>COLEGAS DO INSS</b><br>
+<div class="foto-grupo">
+  <img class="esq1 no-zoom img-responsive" style="dressler" src="/images/23.png" width="900px";/>
+  <span class="pessoa" style="top: 20%; left: 24%;" data-nome=""></span>
+  <span class="pessoa" style="top: 12%; left: 45%;" data-nome=""></span>
+  <span class="pessoa" style="top: 4%;  left: 60%;" data-nome=""></span>
+  <span class="pessoa" style="top: 12%; left: 70%;" data-nome=""></span>
+  <span class="pessoa" style="top: 16%; left: 92%;" data-nome=""></span>
+  <span class="pessoa" style="top: 27%; left: 84%;" data-nome=""></span>
+  <span class="pessoa" style="top: 27%; left: 35%;" data-nome=""></span>
+  <span class="pessoa" style="top: 50%; left: 40%;" data-nome=""></span>
+  <span class="pessoa" style="top: 44%; left: 48%;" data-nome=""</span>
+  <span class="pessoa" style="top: 20%; left: 90%;" data-nome=""</span>
+  <span class="pessoa" style="top: -10%; left: 150%;" data-nome=""</span></div><br><br>
 
-<img class="esq1 no-zoom img-responsive" style="dressler" src="/images/23.png" width="900px";/>
 
 
 
